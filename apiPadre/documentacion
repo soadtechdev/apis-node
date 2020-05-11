@@ -1,0 +1,47 @@
+#############################
+###  rutas para clientes ###
+#############################
+
+## agregar cliente
+METODO: POST
+url: /clientes
+
+## todos los clientes
+METODO: GET
+url: /clientes
+
+## un cliente
+METODO: GET
+url: /clientes/idCliente
+
+## actualizar un cliente
+METODO: PUT
+url: /clientes/idCliente
+
+## Eliminar un cliente
+METODO: delete
+url: /clientes/idCliente
+
+#############################
+### rutas para prdocutos ###
+#############################
+
+## agregar producto
+METODO: POST
+url: /productos
+
+## mostrar todos los productos
+METODO: GET
+url: /productos
+
+## mostrar un producto
+METODO: GET
+url: /productos/idProducto
+
+## actualizar un producto
+METODO: PUT
+url: /productos/idProducto
+
+## eliminar un producto
+METODO: DELETE
+url: /productos/idProducto
